@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #d6e2f0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+  width: 315px;
+}
+.qr-card .qr-card-title {
+  font-size: 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0px;
+  color: #1f3251;
+}
+.qr-card .qr-card-text {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 25px 20px;
+  color: #7b879d;
+}
+.qr-card .qr-card-code {
+  display: block;
+  width: 315px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  margin: 25px 0px;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=styles.css.map */

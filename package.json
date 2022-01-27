@@ -1,0 +1,10 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juan Pablo Quintero <96780620+juanpqj@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}

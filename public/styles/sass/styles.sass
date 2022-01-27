@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+
+$white-color: hsl(0, 0%, 100%)
+$light-gray-color: hsl(212, 45%, 89%)
+$grayish-blue-color: hsl(220, 15%, 55%)
+$dark-blue-color: hsl(218, 44%, 22%)
+$shadow-color: rgba(0, 0, 0, 0.1)
+
+$font-1 : 'Outfit', sans-serif
+$card-width: 315px
+
+*
+  padding: 0px
+  margin: 0px
+
+body
+  background-color: $light-gray-color
+
+.container
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+.qr-card
+  background-color: $white-color
+  padding: 15px
+  border-radius: 15px
+  box-shadow: 5px 5px 25px $shadow-color
+  width: $card-width
+
+  .qr-card-title
+    font-size: 25px
+    font-family: $font-1
+    font-weight: 700
+    text-align: center
+    margin: 20px 0px
+    color: $dark-blue-color
+
+  .qr-card-text
+    font-size: 15px
+    font-family: $font-1
+    font-weight: 400
+    text-align: center
+    margin: 25px 20px
+    color: $grayish-blue-color
+
+
+  .qr-card-code
+    display: block
+    width: $card-width
+    text-align: center
+    margin-bottom: 20px
+    border-radius: 15px
+
+.attribution
+  font-size: 11px
+  font-family: $font-1
+  text-align: center
+  margin: 25px 0px
+  a
+    color: hsl(228, 45%, 44%)
